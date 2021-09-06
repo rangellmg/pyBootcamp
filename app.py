@@ -18,9 +18,9 @@ def show_user_config(id):
 
 
 @app.route('/post/<int:post_id>')
-def show_post(username):
+def show_post(post_id):
     # Mostrar a postagem com o id fornecido, id é um inteiro
-    return f'Post {id}'
+    return f'Post {post_id}'
 
 
 @app.route('/path/<path:subpath>')
